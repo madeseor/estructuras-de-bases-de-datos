@@ -1,6 +1,6 @@
-#Árbol KD para búsqueda espacial de puntos de entrega
+# Árbol KD para búsqueda espacial de puntos de entrega
 
-##Descripción
+## Descripción
 
 Este proyecto implementa desde cero un **árbol KD (KD-Tree)** para resolver un problema de búsqueda espacial en un contexto de entregas. El objetivo es identificar cuáles de **10.000 puntos geográficos** se encuentran dentro de un radio de **500 metros** respecto a un punto de consulta. Para evaluar su eficiencia, se compara el rendimiento del árbol KD con un método de **fuerza bruta**.
 
@@ -8,7 +8,7 @@ El problema principal se trabaja en **2 dimensiones**, usando coordenadas de **l
 
 ---
 
-##Problema que resuelve
+## Problema que resuelve
 
 La tarea principal es una **búsqueda por rango**: dado un punto geográfico y un radio fijo, encontrar todos los puntos que se encuentren dentro de esa distancia.
 
