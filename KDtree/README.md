@@ -84,7 +84,7 @@ El árbol se construye mediante una estrategia **balanceada por mediana**, lo qu
 
 La mediana se calcula como:
 
-$$\text{median\_index} = \left\lfloor \frac{n}{2} \right\rfloor$$
+$$\text{median\\_index} = \left\lfloor \frac{n}{2} \right\rfloor$$
 
 ```python
 def build_kdtree(points, depth=0):
