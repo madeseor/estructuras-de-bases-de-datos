@@ -178,9 +178,9 @@ En cada nodo visitado se calcula la distancia Haversine entre el punto almacenad
 ### 2. Poda espacial
 Para evitar recorrer ramas innecesarias, el radio en metros se convierte a una aproximación angular en grados:
 
-$$\text{angular\_radius\_lat} = \deg\left(\frac{r}{R}\right)$$
+angular_radius_lat = degrees(r / R)
 
-$$\text{angular\_radius\_lon} = \deg\left(\frac{r}{R \cdot \cos(\phi)}\right)$$
+angular_radius_lon = degrees(r / (R · cos(φ)))
 
 ```python
 def find_points_in_radius(node, query_point, radius_meters, results=None):
